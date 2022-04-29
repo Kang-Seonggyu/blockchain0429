@@ -14,7 +14,7 @@ const account = ''
 // }
 
 const privateKey = Buffer.from('', 'hex')
-const contractAddress = '0x6e33bd4718812744414f8ff692f78ccea7f1cb1f'
+const contractAddress = '0x47a80488dae6BAba1ccE1f2d637765b11be02F59'
 const contract = new web3.eth.Contract(abi, contractAddress)
 
 const bodyParser = require('body-parser')
